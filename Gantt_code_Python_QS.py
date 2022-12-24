@@ -21,7 +21,7 @@ worksheet.write(0,4,"file name with path")
 os # read all log files with loop for
 re # search lines with patterns strings + readlines
 
-folderpath = input('Please insert a folder path of log files from Qlik Sense\n')  # r"C:\Users\97250\Desktop\logs"
+folderpath = input('Please insert a folder path of log files from Qlik Sense\n')  # r"C:\Users\.....\Desktop\logs"
 filepaths = [os.path.join(folderpath, name) for name in os.listdir(folderpath)]
 all_files = []
 
