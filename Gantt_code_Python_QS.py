@@ -58,7 +58,7 @@ for path in filepaths: # building array of all log text files
     worksheet.write(index_xls_r, col_xls_end, end_time)  # end
     worksheet.write(index_xls_r, 0, index_xls_r)  # task name as number
     worksheet.write(index_xls_r, col_xls_duration, duration)  # duration
-    worksheet.write(index_xls_r, 4, path)  # duration
+    worksheet.write(index_xls_r, 4, path)  # task num
     index_xls_r += 1
 #################################################
 #creat plot figure - Gantt
